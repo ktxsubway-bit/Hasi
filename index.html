@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>하시소프트웨어 | Hasi Software</title>
-    <!-- Tailwind CSS (스타일링 용도) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome (아이콘 용도) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         /* 부드러운 스크롤 효과 */
@@ -24,16 +22,15 @@
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans antialiased">
 
-    <!-- 네비게이션 바 -->
     <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center gap-2">
-                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                        H
-                    </div>
+                
+                <div class="flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <img src="Gemini_Generated_Image_9nc6qr9nc6qr9nc6.jpg" alt="하시소프트웨어 로고" class="h-10 w-auto mix-blend-multiply">
                     <span class="font-bold text-xl tracking-tight">하시소프트웨어</span>
                 </div>
+                
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">홈</a>
                     <a href="#projects" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">프로젝트</a>
@@ -43,7 +40,6 @@
         </div>
     </nav>
 
-    <!-- 히어로 섹션 -->
     <section id="home" class="relative bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 text-center">
             <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight mb-4">
@@ -58,7 +54,6 @@
         </div>
     </section>
 
-    <!-- 프로젝트 섹션 -->
     <section id="projects" class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -68,7 +63,6 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 
-                <!-- 프로젝트 1: Subwayweb -->
                 <div class="project-card bg-white rounded-2xl p-8 border border-gray-100 flex flex-col h-full">
                     <div class="w-14 h-14 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-2xl mb-6">
                         <i class="fa-solid fa-train-subway"></i>
@@ -87,7 +81,6 @@
                     </div>
                 </div>
 
-                <!-- 프로젝트 2: Pyture 브라우저 -->
                 <div class="project-card bg-white rounded-2xl p-8 border border-gray-100 flex flex-col h-full">
                     <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6">
                         <i class="fa-solid fa-compass"></i>
@@ -107,12 +100,10 @@
         </div>
     </section>
 
-    <!-- 풋터 -->
     <footer id="contact" class="bg-gray-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-2xl font-bold mb-4">하시소프트웨어</h2>
             <div class="flex justify-center space-x-6 mb-8 text-gray-400">
-                <!-- 깃허브 아이콘을 구글 드라이브 아이콘으로 변경 및 링크 업데이트 -->
                 <a href="https://drive.google.com/drive/folders/1BYg-1iRzjybnVAIHKtLr6b_PAJESzfiU?usp=sharing" target="_blank" class="hover:text-blue-400 transition-colors" title="Google Drive 다운로드">
                     <i class="fa-brands fa-google-drive text-2xl"></i>
                 </a>
