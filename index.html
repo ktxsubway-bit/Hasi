@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>하시소프트웨어 | Hasi Software</title>
+    
+    <title>하시소프트웨어 | Hasi Software - 혁신적인 소프트웨어 개발</title>
+    <meta name="description" content="세상을 연결하는 하시소프트웨어(Hasi Software) 공식 홈페이지입니다. Subwayweb 지하철 검색 서비스, Pyture 웹 브라우저 등 다양한 소프트웨어 프로젝트와 다운로드를 제공합니다.">
+    <meta name="keywords" content="하시소프트웨어, Hasi Software, Subwayweb, 지하철 검색, Pyture, 파이썬 브라우저, 소프트웨어 개발, 프로그램 다운로드">
+    <meta name="author" content="하시소프트웨어">
+    
+    <link rel="canonical" href="https://hasiso.kro.kr">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="하시소프트웨어 | Hasi Software">
+    <meta property="og:description" content="세상을 연결하는 소프트웨어, 하시소프트웨어의 프로젝트들을 만나보세요.">
+    <meta property="og:url" content="https://hasiso.kro.kr">
+    <meta property="og:image" content="https://hasiso.kro.kr/icon.png">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
-        /* 부드러운 스크롤 효과 */
         html { scroll-behavior: smooth; }
-        
-        /* 카드 호버 애니메이션 */
-        .project-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+        .project-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
         .project-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
@@ -25,12 +33,10 @@
     <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
-                
                 <div class="flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
                     <img src="icon.png" alt="하시소프트웨어 로고" class="h-10 w-auto mix-blend-multiply">
                     <span class="font-bold text-xl tracking-tight">하시소프트웨어</span>
                 </div>
-                
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">홈</a>
                     <a href="#projects" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">프로젝트</a>
@@ -46,10 +52,10 @@
                 세상을 연결하는 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">소프트웨어</span>
             </h1>
             <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto mb-8">
-                하시소프트웨어에서 개발한 프로젝트들을 만나보세요.
+                사용자 경험을 최우선으로 생각하는 하시소프트웨어의 개발 프로젝트를 소개합니다. 편리하고 혁신적인 툴을 지금 바로 경험해보세요.
             </p>
             <a href="#projects" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 md:text-lg transition-colors shadow-lg hover:shadow-xl">
-                다운로드 센터 이동
+                배포 프로젝트 보기
             </a>
         </div>
     </section>
@@ -58,25 +64,25 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">배포 프로젝트</h2>
+                <p class="mt-2 text-gray-600">하시소프트웨어에서 직접 개발하고 관리하는 주요 서비스입니다.</p>
                 <div class="w-24 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                
                 <div class="project-card bg-white rounded-2xl p-8 border border-gray-100 flex flex-col h-full">
                     <div class="w-14 h-14 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-2xl mb-6">
                         <i class="fa-solid fa-train-subway"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Subwayweb</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Subwayweb (지하철 웹)</h3>
                     <p class="text-gray-600 mb-6 flex-grow">
-                        지하철 역을 검색하고 찾을 수 있는 서비스입니다. 웹사이트를 이용하거나 안드로이드용 APK를 구글 드라이브에서 다운로드하세요.
+                        지하철 노선과 역 정보를 빠르고 정확하게 검색할 수 있는 웹 서비스입니다. 안드로이드 전용 APK도 함께 제공됩니다.
                     </p>
                     <div class="flex flex-col gap-3">
                         <a href="https://subwayweb.kro.kr" target="_blank" class="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-colors font-medium">
                             <i class="fa-solid fa-globe"></i> 웹사이트 방문하기
                         </a>
                         <a href="https://drive.google.com/drive/folders/1BYg-1iRzjybnVAIHKtLr6b_PAJESzfiU?usp=sharing" target="_blank" class="w-full flex items-center justify-center gap-2 px-4 py-3 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-colors font-medium">
-                            <i class="fa-brands fa-android"></i> 안드로이드 APK 다운로드 (G-Drive)
+                            <i class="fa-brands fa-android"></i> 안드로이드 APK 다운로드
                         </a>
                     </div>
                 </div>
@@ -85,17 +91,16 @@
                     <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6">
                         <i class="fa-solid fa-compass"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Pyture</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Pyture (파이처 브라우저)</h3>
                     <p class="text-gray-600 mb-6 flex-grow">
-                        사용자 편의를 위해 개발된 파이썬 기반 웹 브라우저 Pyture입니다. 윈도우 설치 파일(Setup.exe)은 구글 드라이브에서 확인 가능합니다.
+                        파이썬 기반으로 설계된 가볍고 직관적인 웹 브라우저입니다. 빠른 서핑 환경과 윈도우용 설치 파일을 지원합니다.
                     </p>
                     <div class="flex flex-col gap-3 mt-auto">
                         <a href="https://drive.google.com/drive/folders/1BYg-1iRzjybnVAIHKtLr6b_PAJESzfiU?usp=sharing" target="_blank" class="w-full flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium">
-                            <i class="fa-brands fa-windows"></i> Windows용 Setup.exe 다운로드 (G-Drive)
+                            <i class="fa-brands fa-windows"></i> Windows용 설치 파일 다운로드
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -104,16 +109,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-2xl font-bold mb-4">하시소프트웨어</h2>
             <div class="flex justify-center space-x-6 mb-8 text-gray-400">
-                <a href="https://drive.google.com/drive/folders/1BYg-1iRzjybnVAIHKtLr6b_PAJESzfiU?usp=sharing" target="_blank" class="hover:text-blue-400 transition-colors" title="Google Drive 다운로드">
+                <a href="https://drive.google.com/drive/folders/1BYg-1iRzjybnVAIHKtLr6b_PAJESzfiU?usp=sharing" target="_blank" class="hover:text-blue-400 transition-colors">
                     <i class="fa-brands fa-google-drive text-2xl"></i>
                 </a>
-                <a href="mailto:ktxsubway@gmail.com" class="hover:text-white transition-colors" title="이메일 문의">
+                <a href="mailto:ktxsubway@gmail.com" class="hover:text-white transition-colors">
                     <i class="fa-solid fa-envelope text-2xl"></i>
                 </a>
             </div>
-            <p class="text-gray-500 text-sm">
-                © 2026. 하시소프트웨어 All rights reserved.
-            </p>
+            <p class="text-gray-500 text-sm">© 2026. 하시소프트웨어 All rights reserved.</p>
         </div>
     </footer>
 
